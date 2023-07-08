@@ -1,0 +1,46 @@
+.LanguageChoose
+{
+    color: white;
+    width: 15rem;
+    height: 3rem;
+    line-height: 3;
+    display: flex;
+    position: relative;
+    border-radius: .25rem;
+    overflow: hidden;
+
+    /* Arrow */
+    &::after
+    {
+        content: '\25BC';
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0 1rem;
+        background-color: #34495e;
+        cursor: pointer;
+        pointer-events: none;
+        transition: .25s all ease;
+    }
+
+    /* Transition */
+    &:hover::after
+    {
+        color: #f39c12;
+    }
+
+    &__selected
+    {
+        font-size: 1rem;
+        color: white;
+        background-color: #2D364D;
+        line-height: 3;
+        appearance: none;
+        outline: none;
+        border: none;
+        box-shadow: none;
+        padding: 0 0.5rem;
+        cursor: pointer;
+        flex: 1;
+    } 
+}
