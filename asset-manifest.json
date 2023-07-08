@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/language-chooser/static/css/main.875308f1.css",
+    "main.js": "/language-chooser/static/js/main.03f3db22.js",
+    "index.html": "/language-chooser/index.html",
+    "main.875308f1.css.map": "/language-chooser/static/css/main.875308f1.css.map",
+    "main.03f3db22.js.map": "/language-chooser/static/js/main.03f3db22.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.875308f1.css",
+    "static/js/main.03f3db22.js"
+  ]
+}
